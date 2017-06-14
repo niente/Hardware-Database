@@ -1,5 +1,5 @@
 # Hardware-Database
-This program emulates a hardware database which is stored in a local binary file. Records are read/written by hashing to this file.
+This program emulates a hardware database which is stored in a local binary file. Records are read/written by hashing to this file. The file contains room for 3 items hashed to the same location; further collisions are written to an overflow area at the end of the database.
 Input is validated using various C string functions.
 
 Sample output:
